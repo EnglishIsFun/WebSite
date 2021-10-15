@@ -21,6 +21,18 @@ const routes = [
     path: '/forum',
     name: 'Forum',
     component: () => import(/* webpackChunkName: "forum" */ './views/Forum.vue')
+  },
+
+  {
+    path: '/linksuteis',
+    name: 'LinksUteis',
+    component: () => import(/* webpackChunkName: "linksuteis" */ './views/LinksUteis.vue')
+  },
+
+  {
+    path: '/jogos',
+    name: 'Jogos',
+    component: () => import(/* webpackChunkName: "jogos" */ './views/Jogos.vue')
   }
 
 
