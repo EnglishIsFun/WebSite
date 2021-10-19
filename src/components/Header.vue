@@ -1,49 +1,45 @@
 <template>
   <v-card>
     <v-toolbar
-      color="cyan"
-      dark
+      color="#D3D3D3"
+      light
       flat
+      height="100"
     >
+      
 
-      <v-toolbar-title>Your Dashboard</v-toolbar-title>
 
-      <v-spacer></v-spacer>
-
-      <template v-slot:extension>
+      <template>
         <v-tabs
           v-model="tab"
-          align-with-title
+           class="d-flex justify-center ma-6"
         >
-          <v-tabs-slider color="yellow"></v-tabs-slider>
-
-          <v-toolbar-items>
-            <v-btn flat to="/">Início</v-btn>
-            <v-btn flat to="/Jogos">Jogos</v-btn>
-            <v-btn flat to="/AtividadesDeSaladeAula">Atividades de Sala de Aula</v-btn>
-            <v-btn flat to="/LinksUteis">Links Úteis</v-btn>
-            <v-btn flat to="/Forum">Forúm</v-btn>
-            <v-btn flat to="/Sobre">Sobre</v-btn>
-          </v-toolbar-items>
-          <v-tab
-            v-for="item in items"
-            :key="item"
-          >
-            {{ item }}
-          </v-tab>
+          <v-img src="../assets/Logo.png" max-height="90" max-width="100"  class="mr-5"></v-img> 
+           <v-toolbar-items>
+             
+             <v-btn flat to="/" color="#D3D3D3">Início</v-btn>
+             <v-btn flat to="/Jogos" color="#D3D3D3">Jogos</v-btn>
+              <v-btn flat to="/AtividadesDeSaladeAula" color="#D3D3D3"> Atividades de Sala de Aula</v-btn>
+              <v-btn flat to="/LinksUteis" color="#D3D3D3">Links Úteis</v-btn>
+              <v-btn flat to="/Forum" color="#D3D3D3">Forúm</v-btn>
+              <v-btn flat to="/Sobre" color="#D3D3D3">Sobre</v-btn>
+            </v-toolbar-items>
+          <v-img src="../assets/logo_ifrs.png"  max-width="70"  class="ml-5 mb-2"></v-img> 
+            
         </v-tabs>
       </template>
+         
+      
     </v-toolbar>
-
-    <v-tabs-items v-model="tab">
-      <v-tab-item
-        v-for="item in items"
-        :key="item"
-      >
-      </v-tab-item>
-    </v-tabs-items>
+    
   </v-card>
+  
 </template>
+
+<style lang="scss" scoped>
+
+
+</style>
 
 
 <script>
