@@ -10,14 +10,17 @@
       tile
       
     >
-      <v-card-text class="grey lighten-1">
-    
-        Englishisfunifrs@gmail.com
+      <v-card class="d-flex grey lighten-1 text-center">
+        <v-card-text class="">
+          <strong>Contato:</strong> <a href="mailto:englishisfunifrs@gmail.com">Englishisfunifrs@gmail.com  <v-icon>mdi-email</v-icon></a>  
+          
 
-        <v-spacer></v-spacer>
+        </v-card-text>
 
-
-      </v-card-text>
+        <v-card-text class="">
+          <strong>Instituição:</strong> <a href="https://ifrs.edu.br/farroupilha/">Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Farroupilha</a>
+        </v-card-text>
+      </v-card>
 
       <v-card-text class="py-2  text-center">
         <strong>2021 - English Is Fun</strong>
