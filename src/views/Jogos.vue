@@ -1,7 +1,7 @@
 <template>
   <v-content>
 
-    <v-card href="#">
+    <v-card href="#/Jogos/JogodaMemoria-Antonimos">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -20,7 +20,7 @@
               Um jogo da memória para reforçar o aprendizado de alguns <b>Antônimos</b>.
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/JogodaMemoria-Antonimos" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -29,7 +29,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/JogodaForca">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -48,7 +48,7 @@
               Um jogo da forca com temas diversos, como: Profissões, Lugares, Animais, Comidas, Cores e Objetos <br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/JogodaForca" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -57,7 +57,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/JogodeLinkdePalavrasVocabulario">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -76,7 +76,7 @@
               Jogo de juntar palavras diversas com as suas respectivas traduções para incentivar o aprendisado de novos <b>vocabularios</b>.<br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/JogodeLinkdePalavrasVocabulario" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -85,7 +85,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/Roleta-AdverbsofFrequency">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -104,7 +104,7 @@
               Uma roleta para sortear <b>advérbios de frequência</b>, para atividades com os alunos<br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/Roleta-AdverbsofFrequency" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -175,7 +175,7 @@
           <v-card>
             <v-card>
               <v-img
-              src="../assets/Jogos/CruzadinhaWWII.png" 
+              src="../assets/Jogos/Passive Voice - Inventions.png" 
               alt="Passive Voice - Inventions - Kahoot"
               contain
               height="300"
@@ -197,7 +197,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/Cruzadinha-PresentSimple">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -216,7 +216,7 @@
               Uma Cruzadinha para treinar o conteúdo <b>Present Simple</b><br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/Cruzadinha-PresentSimple" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -225,7 +225,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/DesembaralharPalavras-WilleGoingTo">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -244,7 +244,7 @@
               Uma atividade de desembaralhar palavras para criar frases gramaticalmente corretas no <b>futuro</b>, usando "will" e "going to".<br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/DesembaralharPalavras-WilleGoingTo" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -253,7 +253,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/Cruzadinha-SegundaGuerraMundial">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -272,7 +272,7 @@
               Uma Cruzadinha com o conteúdo sobre a <b>Segunda Guerra Mundial</b>, baseada no conteúdo da linha do tempo da plataforma PADLET <br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/Cruzadinha-SegundaGuerraMundial" color="grey">JOGAR</v-btn>
               <v-btn href="https://padlet.com/aariottia/1tvymfg55qkf08rg" color="grey">Acessar PADLET</v-btn>
             </v-card-actions>
           </v-card>
@@ -282,7 +282,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/DesembaralharPalavras-PresentPerfect">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -301,7 +301,7 @@
               Um jogo onde aparecem diversas palavras do <b>Present Perfect</b> embaralhadas e você tem que desembaralhar para que a frase fique gramaticalmente correta.<br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/DesembaralharPalavras-PresentPerfect" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -310,7 +310,7 @@
 
 
     <br><br>
-    <v-card href="#">
+    <v-card href="#/Jogos/CacaPalavras-PastParticiple">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
           <v-card>
@@ -329,7 +329,7 @@
               Um caça-palavras para você treinar a conjugação dos principais verbos no <b>Past Participle</b>.<br>
             </v-card-text> 
             <v-card-actions class="justify-center">
-              <v-btn href="#" color="grey">JOGAR</v-btn>
+              <v-btn href="#/Jogos/CacaPalavras-PastParticiple" color="grey">JOGAR</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>

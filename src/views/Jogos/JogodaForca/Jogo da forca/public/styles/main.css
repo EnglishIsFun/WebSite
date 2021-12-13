@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+#container {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --color-white: #f1f6f9;
+    --color-white-secondary:#f2f4fb;
+    --color-black: #373a40;
+    --color-black-secondary: #393e46;
+    --color-green: #ccf6c8;
+    --color-green-secondary: #28df99;
+
+    font-size: 62.5%;
+}

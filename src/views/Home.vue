@@ -42,15 +42,230 @@
 
     <br><br>
 
+
     <v-card>
 
-      <v-card-title>
+      <v-card-title class="text-h4 pl-10">
         Equipe
       </v-card-title>  
+    </v-card>
+    <v-card class="d-flex flex-wrap">
+
+      <v-card
+      class="mx-auto ma-1"
+      max-width="500"
+      outlined
+      >
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="text-overline mb-4">
+              Aluna
+            </div>
+            <v-list-item-title class="text-h5 mb-1">
+              Amanda Ariotti Arsego
+            </v-list-item-title>
+            <v-card-text class="text-justify">Aluna do primeiro ano técnico administração no IFRS Campus Farroupilha, estudante de inglês desde 2014. Participou do projeto no ano de 2020, durante a bolsa de ensino da professora Lucilene.</v-card-text>
+          </v-list-item-content>
+
+          <v-list-item-avatar
+          tile
+          size="80"
+          color="grey"
+          >
+            <v-img src="../assets/Sobre/Amanda.png"></v-img>
+          </v-list-item-avatar>
+        </v-list-item>
+
+        <v-card-actions>
+          <v-btn
+          outlined
+          rounded
+          text
+          href="http://lattes.cnpq.br/5260627111756074"
+          >
+            Currículo Lattes
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+
+
+
+
+      <v-card
+      class="mx-auto ma-1"
+      max-width="500"
+      outlined
+      >
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="text-overline mb-4">
+              Professora
+            </div>
+            <v-list-item-title class="text-h5 mb-1">
+              Denise Vergara de Souza Bork
+            </v-list-item-title>
+            <v-card-text class="text-justify">Professora Denise Vergara de Souza Bork, atua no IFRS 
+              Campus Farroupilha na disciplina de Arte nos cursos 
+              Técnicos Integrados ao Ensino Médio. Com formação em 
+              Licenciatura em Educação Artística pela UFPel - Universidade 
+              Federal de Pelotas e especialização em Arte Educação pela 
+              mesma instituição. Participou do projeto no ano de 2020, como professora apoiadora.</v-card-text>
+          </v-list-item-content>
+
+          <v-list-item-avatar
+          tile
+          size="80"
+          color="grey"
+          >
+            <v-img src="../assets/Sobre/Denise.png"></v-img>
+          </v-list-item-avatar>
+        </v-list-item>
+
+        <v-card-actions>
+          <v-btn
+          outlined
+          rounded
+          text
+          href="http://lattes.cnpq.br/6511338342133654"
+          >
+            Currículo Lattes
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+
+
+
+      <v-card
+      class="mx-auto ma-1"
+      max-width="500"
+      outlined
+      >
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="text-overline mb-4">
+              Aluno
+            </div>
+            <v-list-item-title class="text-h5 mb-1">
+              Guilherme Sokoloski Fanton
+            </v-list-item-title>
+            <v-card-text class="text-justify">Aluno do curso Técnico Informática no IFRS - Campus Farroupilha, 
+            estudante de inglês desde 2015 e amante de games. Participou do projeto no ano de 2020, durante a bolsa de ensino da professora Lucilene e posteriormente utilizou o projeto como seu TCC no ano de 2021.</v-card-text>
+          </v-list-item-content>
+
+          <v-list-item-avatar
+          tile
+          size="80"
+          color="grey"
+          >
+            <v-img src="../assets/Sobre/Guilherme.png"></v-img>
+          </v-list-item-avatar>
+        </v-list-item>
+
+        <v-card-actions>
+          <v-btn
+          outlined
+          rounded
+          text
+          href="http://lattes.cnpq.br/1788385537178131"
+          >
+            Currículo Lattes
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+
+
+      <v-card
+      class="mx-auto ma-1"
+      max-width="500"
+      outlined
+      >
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="text-overline mb-4">
+              Professora
+            </div>
+            <v-list-item-title class="text-h5 mb-1">
+              Lucilene Bender de Sousa
+            </v-list-item-title>
+            <v-card-text class="text-justify">Professora Lucilene Bender de Sousa do IFRS Campus
+            Farroupilha, tenho  formação em Letras Português/Inglês, 
+            mestrado e doutorado em Linguística. Gosto muito de dar 
+            aula de inglês e gosto, mais ainda, de ver os alunos 
+            aprenderem com alegria e satisfação. Penso que ensinar 
+            e aprender não podem ser uma imposição, mas uma atividade 
+            colaborativa e de crescimento mútuo. Criou o projeto "English is Fun" para tentar trazer a diversão durante a aprendizagem, cordenadora do projeto no ano de 2020 e Coorientadora do aluno Guilherme Fanton em seu TCC no ano de 2021</v-card-text>
+          </v-list-item-content>
+
+          <v-list-item-avatar
+          tile
+          size="80"
+          color="grey"
+          >
+            <v-img src="../assets/Sobre/Lucilene.png"></v-img>
+          </v-list-item-avatar>
+        </v-list-item>
+
+        <v-card-actions>
+          <v-btn
+          outlined
+          rounded
+          text
+          href="http://lattes.cnpq.br/2193271042372742"
+          >
+            Currículo Lattes
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+
+
+
+      <v-card
+      class="mx-auto ma-1"
+      max-width="500"
+      outlined
+      >
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="text-overline mb-4">
+              Professora
+            </div>
+            <v-list-item-title class="text-h5 mb-1">
+              Mônica de Souza Chissini
+            </v-list-item-title>
+            <v-card-text class="text-justify">Olá, pessoal! Me chamo Mônica e sou professora da área de Letras do 
+            IFRS - Campus Farroupilha. Sou Mestra em Educação, especialista em 
+            Estudos Culturais em Educação e licenciada em Letras Português/Inglês 
+            e respectivas literaturas e em Pedagogia.  Atuo como professora de 
+            língua portuguesa, inglesa e literaturas. Sempre me realizei muito 
+            na docência e gosto muito de poder construir conhecimentos e partilhar 
+            experiências com os estudantes. O English is Fun é um projeto que 
+            permite que possamos, coletivamente, planejar o aprendizado do inglês 
+            de forma significativa, lúdica e dinâmica. Participei do projeto no ano de 2020, como professora apoiadora.</v-card-text>
+          </v-list-item-content>
+
+          <v-list-item-avatar
+          tile
+          size="80"
+          color="grey"
+          >
+            <v-img src="../assets/Sobre/Monica.png"></v-img>
+          </v-list-item-avatar>
+        </v-list-item>
+
+        <v-card-actions>
+          <v-btn
+          outlined
+          rounded
+          text
+          href="http://lattes.cnpq.br/2878383483484411"
+          >
+            Currículo Lattes
+          </v-btn>
+        </v-card-actions>
+      </v-card>
 
 
     </v-card>  
-
 
 
   </div>

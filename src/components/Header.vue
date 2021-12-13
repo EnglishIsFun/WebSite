@@ -50,7 +50,7 @@ export default {
         { link: "/", title: "Início" },
         { link: "/Jogos", title: "Jogos" },
         { link: "/AtividadesDeSaladeAula", title: "Atividades de Sala de Aula" },
-        { link: "/Forum", title: "Forúm Dos Alunos" },
+        { link: "/Forum", title: "Fórum Dos Alunos" },
         { link: "/LinksUteis", title: "Links Úteis" }
       ]
     };

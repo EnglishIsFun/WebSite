@@ -3,7 +3,7 @@
 
       <v-content>
         <v-container fluid fill-height>
-          <v-flex xs12 sm6 offset-sm3>
+          <v-flex xs12 sm10 offset-sm1>
             <v-card>
               <v-card>
               <v-img
@@ -36,7 +36,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-          <v-flex xs12 sm6 offset-sm3>
+          <v-flex xs12 sm10 offset-sm1>
             <v-card>
               <v-card>
               <v-img
@@ -64,7 +64,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-          <v-flex xs12 sm6 offset-sm3>
+          <v-flex xs12 sm10 offset-sm1>
             <v-card>
               <v-card>
               <v-img
@@ -93,7 +93,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-                <v-flex xs12 sm6 offset-sm3>
+                <v-flex xs12 sm10 offset-sm1>
                   <v-card>
                     <v-card>
                     <v-img
@@ -119,7 +119,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-                <v-flex xs12 sm6 offset-sm3>
+                <v-flex xs12 sm10 offset-sm1>
                   <v-card>
                     <v-card>
                     <v-img
@@ -146,7 +146,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-                <v-flex xs12 sm6 offset-sm3>
+                <v-flex xs12 sm10 offset-sm1>
                   <v-card>
                     <v-card>
                     <v-img
@@ -177,7 +177,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-                <v-flex xs12 sm6 offset-sm3>
+                <v-flex xs12 sm10 offset-sm1>
                   <v-card>
                     <v-card>
                     <v-img
@@ -208,7 +208,7 @@
       <br><br>
       <v-content>
         <v-container fluid fill-height>
-                <v-flex xs12 sm6 offset-sm3>
+                <v-flex xs12 sm10 offset-sm1>
                   <v-card>
                     <v-card>
                     <v-img
