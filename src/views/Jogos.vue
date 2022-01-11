@@ -1,6 +1,8 @@
 <template>
   <v-content>
 
+    <h1 style="text-align: center">Jogos</h1><br>
+
     <v-card href="#/Jogos/JogodaMemoria-Antonimos">
       <v-container fluid fill-height>
         <v-flex xs12 sm10 offset-sm1>
@@ -17,7 +19,34 @@
               Jogo da Memória - Antônimos
             </v-card-title>
             <v-card-text>
-              Um jogo da memória para reforçar o aprendizado de alguns <b>Antônimos</b>.
+              Um jogo da memória para reforçar o aprendizado dos <b>Antônimos</b>.
+            </v-card-text> 
+            <v-card-actions class="justify-center">
+              <v-btn href="#/Jogos/JogodaMemoria-Antonimos" color="grey">JOGAR</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-flex>
+      </v-container>
+    </v-card>
+
+    <br><br>
+    <v-card href="#/Jogos/JogodaMemoria-SimplePresent">
+      <v-container fluid fill-height>
+        <v-flex xs12 sm10 offset-sm1>
+          <v-card>
+            <v-card>
+              <v-img
+              src="../assets/Jogos/JogoDaMemoria.png" 
+              alt="Jogo da Memória - Simple Present"
+              contain
+              height="300"
+              ></v-img>
+            </v-card>
+            <v-card-title primary-title>   
+              Jogo da Memória - Simple Present
+            </v-card-title>
+            <v-card-text>
+              Um jogo da memória para ensinar <b>Simple Present</b>.
             </v-card-text> 
             <v-card-actions class="justify-center">
               <v-btn href="#/Jogos/JogodaMemoria-Antonimos" color="grey">JOGAR</v-btn>
@@ -112,32 +141,6 @@
     </v-card>
 
 
-    <br><br>
-    <v-card href="http://vizia.co/videos/2332d8016207c3494387f8/share">
-      <v-container fluid fill-height>
-        <v-flex xs12 sm10 offset-sm1>
-          <v-card>
-            <v-card>
-              <v-img
-              src="../assets/Jogos/ViziaMartin.png" 
-              alt="Discurso Martin Luther King - Atividade Audiovisual"
-              contain
-              height="300"
-              ></v-img>
-            </v-card>
-            <v-card-title primary-title>   
-              Discurso Martin Luther King - Atividade Audiovisual
-            </v-card-title>
-            <v-card-text>
-              Um atividade audiovisual, com o objetivo de ensinar um pouco da <b>história de Martin Luther King</b> e reforçar o Listening<br>
-            </v-card-text> 
-            <v-card-actions class="justify-center">
-              <v-btn href="http://vizia.co/videos/2332d8016207c3494387f8/share" color="grey">JOGAR</v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-flex>
-      </v-container>
-    </v-card>
 
 
     <br><br>

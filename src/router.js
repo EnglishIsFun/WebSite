@@ -78,7 +78,6 @@ const routes = [
     component: () => import(/* webpackChunkName: "jogos" */ './views/Jogos/JogodaForca/JogodaForca.vue')
   },
 
-
   {
     path: '/Jogos/JogodaMemoria-Antonimos',
     name: 'JogodaMemória-Antonimos',
